@@ -1,0 +1,5 @@
+{
+  "name": "LoreBook",
+  "description": "A comprehensive world-building tool for authors and game masters to manage characters, locations, and timelines. Features AI-powered content generation and optional Supabase integration.",
+  "requestFramePermissions": []
+}

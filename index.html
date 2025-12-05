@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoreBook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              lore: {
+                900: '#1a1625',
+                800: '#2d2438',
+                700: '#463b52',
+                600: '#605270',
+                500: '#7d6b91',
+                400: '#9b88b3',
+                300: '#bba6d6',
+                100: '#e5d9f2',
+                accent: '#ffd700', // Gold
+                danger: '#ef4444',
+              }
+            },
+            fontFamily: {
+              serif: ['Merriweather', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.86.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-lore-900 text-lore-100 font-sans antialiased overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>
